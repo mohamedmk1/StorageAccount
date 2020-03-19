@@ -1,0 +1,5 @@
+project: storage account pluralisght
+ressource name: storageacpluralsight
+todo: 
+- catch erros
+- use shared access signature token (AAS)
