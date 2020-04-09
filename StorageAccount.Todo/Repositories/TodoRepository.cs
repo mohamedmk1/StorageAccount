@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Microsoft.Azure.Cosmos.Table;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Configuration;
 
 namespace Pluralight.Todo.Repositories
 {
@@ -19,13 +20,13 @@ namespace Pluralight.Todo.Repositories
     {
 
         private CloudTable todoTable = null;
-        public TodoRepository()
+        private readonly IConfiguration _configuration;
+
+        public TodoRepository(IConfiguration configuration)
         {
-            CloudStorageAccount storageAccount = CloudStorageAccount.Parse("DefaultEndpointsProtocol=https;AccountName=storageacpluralisght;AccountKey=FoIktP9sACEGjoGhdR7mDn4nGjRMGyAapcTl52VSpYb3NGQtfYyKxTEMcaAmhJQvVx9065rC9ICAXxjkJQHE3Q==;EndpointSuffix=core.windows.net");
+            _configuration = configuration;
 
-            CloudTableClient tableClient = storageAccount.CreateCloudTableClient();
-
-            todoTable = tableClient.GetTableReference("Todo");
+            todoTable = GetTodoTableRefernce();
         }
 
         public IEnumerable<TodoEntity> GetAllTodo()
@@ -65,6 +66,15 @@ namespace Pluralight.Todo.Repositories
             var result = todoTable.Execute(operation);
 
             return result.Result as TodoEntity;
+        }
+
+        private CloudTable GetTodoTableRefernce()
+        {
+            CloudStorageAccount storageAccount = CloudStorageAccount.Parse(_configuration.GetSection("ConnectionString").Value);
+
+            CloudTableClient tableClient = storageAccount.CreateCloudTableClient();
+
+            return tableClient.GetTableReference("Todo");
         }
     }
 

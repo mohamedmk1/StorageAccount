@@ -49,10 +49,13 @@ C:\Tutos\C#\Pluralight\StorageAccount.Todo\StorageAccount.Todo\bin\Debug\netcore
 C:\Tutos\C#\Pluralight\StorageAccount.Todo\StorageAccount.Todo\obj\Debug\netcoreapp3.1\StorageAccount.Todo.csprojAssemblyReference.cache
 C:\Tutos\C#\Pluralight\StorageAccount.Todo\StorageAccount.Todo\obj\Debug\netcoreapp3.1\staticwebassets\StorageAccount.Todo.StaticWebAssets.Manifest.cache
 C:\Tutos\C#\Pluralight\StorageAccount.Todo\StorageAccount.Todo\obj\Debug\netcoreapp3.1\staticwebassets\StorageAccount.Todo.StaticWebAssets.xml
-C:\Tutos\C#\Pluralight\StorageAccount.Todo\StorageAccount.Todo\obj\Debug\netcoreapp3.1\StorageAccount.Todo.MvcApplicationPartsAssemblyInfo.cache
 C:\Tutos\C#\Pluralight\StorageAccount.Todo\StorageAccount.Todo\obj\Debug\netcoreapp3.1\StorageAccount.Todo.AssemblyInfoInputs.cache
 C:\Tutos\C#\Pluralight\StorageAccount.Todo\StorageAccount.Todo\obj\Debug\netcoreapp3.1\StorageAccount.Todo.AssemblyInfo.cs
 C:\Tutos\C#\Pluralight\StorageAccount.Todo\StorageAccount.Todo\obj\Debug\netcoreapp3.1\StorageAccount.Todo.RazorTargetAssemblyInfo.cache
 C:\Tutos\C#\Pluralight\StorageAccount.Todo\StorageAccount.Todo\obj\Debug\netcoreapp3.1\StorageAccount.Todo.csproj.CopyComplete
 C:\Tutos\C#\Pluralight\StorageAccount.Todo\StorageAccount.Todo\obj\Debug\netcoreapp3.1\StorageAccount.Todo.dll
 C:\Tutos\C#\Pluralight\StorageAccount.Todo\StorageAccount.Todo\obj\Debug\netcoreapp3.1\StorageAccount.Todo.pdb
+C:\Tutos\C#\Pluralight\StorageAccount.Todo\StorageAccount.Todo\obj\Debug\netcoreapp3.1\StorageAccount.Todo.genruntimeconfig.cache
+C:\Tutos\C#\Pluralight\StorageAccount.Todo\StorageAccount.Todo\bin\Debug\netcoreapp3.1\NLog.dll
+C:\Tutos\C#\Pluralight\StorageAccount.Todo\StorageAccount.Todo\obj\Debug\netcoreapp3.1\StorageAccount.Todo.csproj.CoreCompileInputs.cache
+C:\Tutos\C#\Pluralight\StorageAccount.Todo\StorageAccount.Todo\obj\Debug\netcoreapp3.1\StorageAccount.Todo.MvcApplicationPartsAssemblyInfo.cache
